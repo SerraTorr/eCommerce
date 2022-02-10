@@ -35,5 +35,11 @@ public class JdbcProductRepository implements ProductRepository {
         return jdbcTemplate.query("SELECT * FROM product", BeanPropertyRowMapper.newInstance(Product.class));
     }
 
+    @Override
+    public List<Product> findByQuery(String query){
+        String sql = "SELECT * FROM product WHERE productname SIMILAR TO '(.*)"+query+"(.*)'";
+        return jdbcTemplate.query(sql, BeanPropertyRowMapper.newInstance(Product.class)) ;  
+    }
+
 
 }

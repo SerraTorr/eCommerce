@@ -1,7 +1,7 @@
-package com.example.addProduct.respository;
+package com.example.searchProduct.repository;
 
-import com.example.addProduct.model.Product;
-import com.example.addProduct.model.User;
+import com.example.searchProduct.model.Product;
+import com.example.searchProduct.model.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.jdbc.core.JdbcTemplate;

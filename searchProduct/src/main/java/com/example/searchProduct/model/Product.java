@@ -5,6 +5,14 @@ public class Product {
     String productname;
     int price;
 
+    public Product(){
+        
+    }
+    public Product(String productname, int price){
+        this.productname = productname;
+        this.price = price;
+    }
+
     public Product(int productid, String productname, int price) {
         this.productid = productid;
         this.productname = productname;

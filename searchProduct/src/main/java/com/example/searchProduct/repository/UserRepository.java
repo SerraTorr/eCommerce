@@ -1,7 +1,7 @@
-package com.example.addProduct.respository;
+package com.example.searchProduct.repository;
 
-import com.example.addProduct.model.Product;
-import com.example.addProduct.model.User;
+import com.example.searchProduct.model.Product;
+import com.example.searchProduct.model.User;
 
 public interface UserRepository {
     int save(User user);
