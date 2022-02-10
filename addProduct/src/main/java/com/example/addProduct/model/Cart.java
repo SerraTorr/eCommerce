@@ -1,20 +1,22 @@
 package com.example.addProduct.model;
 
+import java.util.List;
 
 public class Cart {
-    private int productid;
+    private List<Integer> productid;
 
     public Cart(){
 
     }
 
-    public Cart(int productid){
+    public Cart(List<Integer> productid){
         this.productid = productid;
     }
 
-    public int getProductid(){
+    public List<Integer> getProductid(){
         return this.productid;
     }
 
     
 }
+

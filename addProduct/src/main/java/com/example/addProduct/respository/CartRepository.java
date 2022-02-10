@@ -1,6 +1,6 @@
-package com.example.order.repository;
+package com.example.addProduct.respository;
 
-import com.example.order.model.Cart;
+import com.example.addProduct.model.Cart;
 
 public interface CartRepository {
     //getcart from sql

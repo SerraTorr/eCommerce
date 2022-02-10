@@ -1,10 +1,8 @@
 package com.example.order.controller;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import com.example.order.model.Cart;
-import com.example.order.model.Product;
 import com.example.order.repository.CartRepository;
 import com.example.order.repository.ProductRepository;
 

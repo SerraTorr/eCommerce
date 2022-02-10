@@ -1,8 +1,8 @@
-package com.example.order.repository;
+package com.example.addProduct.respository;
 
 import java.util.List;
 
-import com.example.order.model.Cart;
+import com.example.addProduct.model.Cart;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
