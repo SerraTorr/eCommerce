@@ -1,4 +1,4 @@
-package com.example.addProduct.model;
+package com.example.order.model;
 
 public class Product {
     int productid;
@@ -44,4 +44,3 @@ public class Product {
                 '}';
     }
 }
-

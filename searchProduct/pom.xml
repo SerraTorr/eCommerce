@@ -9,21 +9,16 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>addProduct</artifactId>
+	<artifactId>searchProduct</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>addProduct</name>
-	<description>e-Commerce : Add Product Microservice</description>
+	<name>searchProduct</name>
+	<description>e-Commerce: Search Product Microservice</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-data-jdbc</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-
 			<artifactId>spring-boot-starter-jdbc</artifactId>
 		</dependency>
 		<dependency>
